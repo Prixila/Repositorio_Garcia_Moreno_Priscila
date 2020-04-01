@@ -2,20 +2,20 @@ Algoritmo Test
 	Definir uno,dos,tres,cuatro,cinco,seis Como Entero
 	
 	Escribir "Nos solemos identificar con un personaje de las caricaturas."
-	Escribir "¿Alguna vez te has preguntado a qué personaje te pareces tú?"
-	Escribir "Haz este test de 6 preguntas y averígualo"
+	Escribir "Â¿Alguna vez te has preguntado a quÃ© personaje te pareces tÃº?"
+	Escribir "Haz este test de 6 preguntas y averÃ­gualo"
 	Escribir ""	
 	Esperar 3 Segundos
-	Escribir "¿Quiere hacer el test?"
+	Escribir "Â¿Quiere hacer el test?"
 	Escribir "Pulse una tecla si quieres continuar"
 	Esperar Tecla	
 	Limpiar Pantalla
-	Escribir "Para contestar a cada pregunta, marque siempre el número de la opción escogida y pulse enter"
+	Escribir "Para contestar a cada pregunta, marque siempre el nÃºmero de la opciÃ³n escogida y pulse enter"
     Esperar 3 Segundos 
 	Escribir ""
-	Escribir "¿Cuál de las siguientes opciones describe la cita perfecta?"
+	Escribir "Â¿CuÃ¡l de las siguientes opciones describe la cita perfecta?"
 	Escribir "1 Una cena a la luz de las velas"
-	Escribir "2 Un parque de diversiones/temático"
+	Escribir "2 Un parque de diversiones/temÃ¡tico"
 	Escribir "3 Pintar en el parque"
 	Escribir "4 Un concierto de rock"
 	Escribir "5 Ir al cine"
@@ -42,11 +42,11 @@ Algoritmo Test
 			6: Salir<-Verdadero;
 				
 			De Otro Modo: 
-				Escribir "Opción incorrecta, por favor elija otra"
+				Escribir "OpciÃ³n incorrecta, por favor elija otra"
 				
 		FinSegun
 		Limpiar Pantalla
-		Escribir "¿Cuál es el tipo de música que te gusta?"
+		Escribir "Â¿CuÃ¡l es el tipo de mÃºsica que te gusta?"
 		Escribir "1 Rock and Roll"
 		Escribir "2 Alternativa"
 		Escribir "3 Rock ligero"
@@ -74,15 +74,15 @@ Algoritmo Test
 				6: Salir<-Verdadero;	
 					
 				De Otro Modo: 
-					Escribir "Esta no es una opción, por favor elija otra"
+					Escribir "Esta no es una opciÃ³n, por favor elija otra"
 			FinSegun
 			
 			Limpiar Pantalla
-			Escribir "¿Qué tipo de películas prefieres?"
+			Escribir "Â¿QuÃ© tipo de pelÃ­culas prefieres?"
 			Escribir "1 Comedia"
 			Escribir "2 Terror"
 			Escribir "3 Musicales"
-			Escribir "4 Románticas"
+			Escribir "4 RomÃ¡nticas"
 			Escribir "5 Documentales"
 			Escribir "6 Salir del test"	
 			Leer tres	
@@ -104,15 +104,15 @@ Algoritmo Test
 					6: Salir<-Verdadero;	
 						
 					De Otro Modo: 
-						Escribir "Esta no es una opción, por favor elija otra"
+						Escribir "Esta no es una opciÃ³n, por favor elija otra"
 				FinSegun
 				
 				Limpiar Pantalla
-				Escribir "¿Cuál de las siguientes ocupaciones escogerías si no tuvieras más opciones?"
+				Escribir "Â¿CuÃ¡l de las siguientes ocupaciones escogerÃ­as si no tuvieras mÃ¡s opciones?"
 				Escribir "1 Camarero"
 				Escribir "2 Deportista profesional"
 				Escribir "3 Maestros"
-				Escribir "4 Policía"
+				Escribir "4 PolicÃ­a"
 				Escribir "5 Cajero"
 				Escribir "6 Salir del test"
 				Leer cuatro	
@@ -134,15 +134,15 @@ Algoritmo Test
 						6: Salir<-Verdadero;	
 							
 						De Otro Modo: 
-							Escribir "Esta no es una opción, por favor elija otra"
+							Escribir "Esta no es una opciÃ³n, por favor elija otra"
 					FinSegun
 					
 					Limpiar Pantalla
-					Escribir "¿Qué haces en tu tiempo libre?"
+					Escribir "Â¿QuÃ© haces en tu tiempo libre?"
 					Escribir "1 Ejercicio"
 					Escribir "2 Leer"
 					Escribir "3 Ver la tele"
-					Escribir "4 Escuchar música"
+					Escribir "4 Escuchar mÃºsica"
 					Escribir "5 Dormir"
 					Escribir "6 Salir del test"
 					
@@ -165,10 +165,10 @@ Algoritmo Test
 							6: Salir<-Verdadero;	
 								
 							De Otro Modo: 
-								Escribir "Esta no es una opción, por favor elija otra"
+								Escribir "Esta no es una opciÃ³n, por favor elija otra"
 						FinSegun	
 						Limpiar Pantalla
-						Escribir "¿Cuál de los siguientes colores es el que más te gusta?"
+						Escribir "Â¿CuÃ¡l de los siguientes colores es el que mÃ¡s te gusta?"
 						Escribir "1 Amarillo"
 						Escribir "2 Blanco"
 						Escribir "3 Azul cielo"
@@ -194,13 +194,13 @@ Algoritmo Test
 								6: Salir<-Verdadero;	
 									
 								De Otro Modo: 
-									Escribir "Esta no es una opción, por favor elija otra"
+									Escribir "Esta no es una opciÃ³n, por favor elija otra"
 							FinSegun
 							
 							Mientras Salir<>Verdadero Hacer
 								
 								suma <- uno+dos+tres+cuatro+cinco+seis
-								Escribir "Tu puntuación final es de : ",suma " puntos"	
+								Escribir "Tu puntuaciÃ³n final es de : ",suma " puntos"	
 								Esperar 3 Segundos
 								Segun suma Hacer
 									
@@ -212,12 +212,12 @@ Algoritmo Test
 										
 									5,6,7:
 										Limpiar Pantalla
-										Escribir "Tú eres Garfield:"
-										Escribir "Tú estás muy cómodo, eres sencillo y definitivamente sabes cómo divertirte "
-										Escribir "pero a veces lo llevas a los extremos. Siempre sabes lo que estás haciendo "
-										Escribir "y siempre estás en control de tu vida. Otros puede que no vean las cosas como tú, "
+										Escribir "TÃº eres Garfield:"
+										Escribir "TÃº estÃ¡s muy cÃ³modo, eres sencillo y definitivamente sabes cÃ³mo divertirte "
+										Escribir "pero a veces lo llevas a los extremos. Siempre sabes lo que estÃ¡s haciendo "
+										Escribir "y siempre estÃ¡s en control de tu vida. Otros puede que no vean las cosas como tÃº, "
 										Escribir "pero eso no significa que tu siempre tengas que hacer lo que es correcto. "
-										Escribir "Recuerda, tu espíritu feliz puede herirte a ti y a otros."
+										Escribir "Recuerda, tu espÃ­ritu feliz puede herirte a ti y a otros."
 										Esperar 12 Segundos
 										Escribir ""
 										Escribir "Toda coincidencia con la realidad es puramente casualidad ;-)"
@@ -225,23 +225,23 @@ Algoritmo Test
 										
 									8,9,10,11,12,13:
 										Limpiar Pantalla
-										Escribir "Tú eres Snoopy:"
-										Escribir "Tú eres divertido, muy en onda y popular. Siempre sabes lo que está de moda "
-										Escribir "y nunca estás fuera de ésta. Eres bueno para saber cómo satisfacer a los demás. "
-										Escribir "Probablemente has desaparecido por unos días más de una vez, pero siempre "
+										Escribir "TÃº eres Snoopy:"
+										Escribir "TÃº eres divertido, muy en onda y popular. Siempre sabes lo que estÃ¡ de moda "
+										Escribir "y nunca estÃ¡s fuera de Ã©sta. Eres bueno para saber cÃ³mo satisfacer a los demÃ¡s. "
+										Escribir "Probablemente has desaparecido por unos dÃ­as mÃ¡s de una vez, pero siempre "
 										Escribir "regresas a casa con los valores familiares que has aprendido. "
-										Escribir "Estar casado y tener hijos es importante para ti, pero sólo después de que has tenido "
-										Escribir "tu tiempo de diversión."
+										Escribir "Estar casado y tener hijos es importante para ti, pero sÃ³lo despuÃ©s de que has tenido "
+										Escribir "tu tiempo de diversiÃ³n."
 										Esperar 12 Segundos
 										Escribir ""
 										Escribir "Toda coincidencia con la realidad es puramente casualidad ;-)"
 										Salir<-Verdadero;
 									14,15,16,17:       
 										Limpiar Pantalla
-										Escribir "Tú eres Elmo (Barrio Sésamo): "
-										Escribir "Tienes muchos amigos y también eres popular, siempre tratando de dar consejos "
+										Escribir "TÃº eres Elmo (Barrio SÃ©samo): "
+										Escribir "Tienes muchos amigos y tambiÃ©n eres popular, siempre tratando de dar consejos "
 										Escribir "y ayudar a las personas que lo necesitan. Eres muy optimista y siempre ves el lado "
-										Escribir "bueno de las cosas. Un buen consejo: trata de no ser demasiado soñador. Soñar demasiado "
+										Escribir "bueno de las cosas. Un buen consejo: trata de no ser demasiado soÃ±ador. SoÃ±ar demasiado "
 										Escribir "puede ocasionarte grandes problemas en tu vida."
 										Esperar 12 Segundos
 										Escribir ""
@@ -250,12 +250,12 @@ Algoritmo Test
 										
 									18,19,20,21,22:                   
 										Limpiar Pantalla
-										Escribir "Tú eres Bob Esponja: "
-										Escribir "Eres la clásica persona que todo mundo adora. Tú eres el mejor amigo que cualquiera"
+										Escribir "TÃº eres Bob Esponja: "
+										Escribir "Eres la clÃ¡sica persona que todo mundo adora. TÃº eres el mejor amigo que cualquiera"
 										Escribir "pudiera tener y nunca quiere perder. Eres muy optimista y siempre ves el lado"
-										Escribir "bueno de las cosas. Nunca le ocasionas daño a nadie y los demás nunca entenderían tus"
+										Escribir "bueno de las cosas. Nunca le ocasionas daÃ±o a nadie y los demÃ¡s nunca entenderÃ­an tus"
 										Escribir "sentimientos. La vida es un viaje, es divertida y tranquila la mayor parte del tiempo."
-										Escribir "Mantente alejado de las personas traidoras y celosas y estarás libre de estrés."
+										Escribir "Mantente alejado de las personas traidoras y celosas y estarÃ¡s libre de estrÃ©s."
 										Esperar 12 Segundos
 										Escribir ""
 										Escribir "Toda coincidencia con la realidad es puramente casualidad ;-)"
@@ -263,11 +263,11 @@ Algoritmo Test
 										
 									23,24,25,26,27,28,29:   
 										Limpiar Pantalla
-										Escribir "Tú eres Charlie Brown:" 
-										Escribir "Eres tierno, te enamoras rápidamente pero también eres muy serio en todas tus relaciones."
+										Escribir "TÃº eres Charlie Brown:" 
+										Escribir "Eres tierno, te enamoras rÃ¡pidamente pero tambiÃ©n eres muy serio en todas tus relaciones."
 										Escribir "Eres una persona apegada a la familia, le hablas a tu madre cada domingo. "
-										Escribir "Tienes muchos amigos y ocasionalmente olvidas algunos cumpleaños. No dejes que la "
-										Escribir "pasión se confunda con la realidad."
+										Escribir "Tienes muchos amigos y ocasionalmente olvidas algunos cumpleaÃ±os. No dejes que la "
+										Escribir "pasiÃ³n se confunda con la realidad."
 										Esperar 12 Segundos
 										Escribir ""
 										Escribir "Toda coincidencia con la realidad es puramente casualidad ;-)"
@@ -275,10 +275,10 @@ Algoritmo Test
 										
 									30,31,32,33,34,35:
 										Limpiar Pantalla
-										Escribir "Tú eres Dexter (del laboratorio de Dexter): "
-										Escribir "Eres inteligente y definitivamente un pensador… Cada situación es enfrentada con un plan. "
+										Escribir "TÃº eres Dexter (del laboratorio de Dexter): "
+										Escribir "Eres inteligente y definitivamente un pensadorÂ… Cada situaciÃ³n es enfrentada con un plan. "
 										Escribir "Tienes una mente brillante. Demuestras principios familiares muy fuertes. Mantienes una "
-										Escribir "rutina estable pero nunca ignoras una mala situación cuando se presenta. Trata de vez en "
+										Escribir "rutina estable pero nunca ignoras una mala situaciÃ³n cuando se presenta. Trata de vez en "
 										Escribir "cuando de reflexionar menos las cosas para disfrutar un poco de la espontaneidad."
 										Esperar 12 Segundos
 										Escribir ""
